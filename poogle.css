@@ -1,0 +1,128 @@
+#background {
+
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+
+
+}
+.header {
+    float: right;
+
+}
+
+.header a, .header button {
+    margin: 10px
+    color: #000000;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+
+.header button {
+
+    background: #4484f1;
+    padding: 8px;
+    margin-right: 10px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 10%;
+    font-weight: bold;
+    border-style: none;
+
+
+}
+
+.header button:hover {
+    background-color: blue;
+    color: cornsilk;
+}
+
+.logo-img img {
+
+    width: 300px;
+    height: auto;
+    margin-top: 15%;
+    margin-left: 38%;
+}
+
+
+.search-box input {
+    width: 664px;
+    height: 42px;
+    margin-top: 40px;
+    margin-left: 25%;
+    border-radius: 25px;
+    border-style: dotted;
+}
+.search-box input:hover {
+
+    border-style: solid;
+}
+
+.btn button {
+    width: auto;
+    height: 36px;
+    margin-top: 40px;
+    margin-left: 38%;
+    border-radius: 10%;
+    border-style: none;
+
+    
+}
+
+.btn button:hover {
+
+    border-style: dotted;
+    font-weight: lighter;
+}
+
+.btn button + button {
+    
+    margin-left: 10px;
+}
+
+.footer {
+
+    background: #f2f2f2;
+    border-top: black;
+    left: 0;
+    bottom: 0;
+    height: 40px;
+    width: 100%;
+    padding: 12px;
+    color: #000;
+    text-decoration: none;
+    position: fixed;
+    
+}
+
+.Languages {
+
+    margin-top: 20px;
+    margin-left: 28%;
+}
+
+.footer-links {
+
+    margin-bottom: 100%;
+    margin-top: 10px;
+}
+
+.footer-links a {
+
+    padding-top: 5%;
+    margin-inline: 15px;
+
+}
+
+.footer-left {
+
+    float: left;
+}
+
+.footer-right {
+
+    float: right;
+}
